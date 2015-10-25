@@ -1,6 +1,6 @@
 {
   "name": "redux-localstorage-reject",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web Storage persist of rejected state.",
   "repository": {
     "type": "git",
