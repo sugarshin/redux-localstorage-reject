@@ -23,9 +23,10 @@
   ],
   "scripts": {
     "lint": "eslint src",
+    "start": "npm run compile -- -w",
     "test": "mocha --compilers js:espower-babel/guess test/**/*.js",
     "compile": "babel -d lib src",
-    "build": "npm ru lint && npm ru compile"
+    "build": "npm run lint && npm run compile"
   },
   "author": "sugarshin",
   "license": "MIT",

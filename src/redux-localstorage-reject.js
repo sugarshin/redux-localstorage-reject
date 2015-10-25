@@ -10,19 +10,19 @@ import clone from 'clone';
 import { del } from 'object-path';
 
 export default function reject(paths) {
-  paths = typeof paths === 'string' ? [paths] : paths;
-
   return storage => ({
     ...storage,
     put(key, state, callback) {
-      storage.put(key, rejecter(clone(state), paths), callback);
+      storage.put(key, _rejecter(clone(state), paths), callback);
     }
   });
 }
 
-function rejecter(object, paths) {
+export function _rejecter(object, paths) {
+  paths = typeof paths === 'string' ? [paths] : paths;
+
+  const { length } = paths;
   let index = 0;
-  const length = paths.length;
 
   while (index < length) {
     del(object, paths[index++]);

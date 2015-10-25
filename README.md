@@ -29,6 +29,10 @@ For more information on using storage enhancers check out [redux-localstorage](h
 
 ### `reject(paths)`
 
+@param {Array<String> | String} paths
+
+@returns {Function}
+
 ## Contributing
 
 1. Fork it!
