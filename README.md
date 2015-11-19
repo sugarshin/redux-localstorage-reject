@@ -1,6 +1,8 @@
 # redux-localstorage-reject
 
 [![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![Devdependency Status][david-dev-image]][david-dev-url]
 [![GitHub version][github-ver-image]][github-ver-url]
 [![License][license-image]][license-url]
 
@@ -29,9 +31,10 @@ For more information on using storage enhancers check out [redux-localstorage](h
 
 ### `reject(paths)`
 
+```
 @param {Array<String> | String} paths
-
 @returns {Function}
+```
 
 ## Contributing
 
@@ -49,11 +52,13 @@ For more information on using storage enhancers check out [redux-localstorage](h
 
 [npm-image]: http://img.shields.io/npm/v/redux-localstorage-reject.svg
 [npm-url]: https://www.npmjs.org/package/redux-localstorage-reject
+[david-image]: https://david-dm.org/sugarshin/redux-localstorage-reject.svg
+[david-url]: https://david-dm.org/sugarshin/redux-localstorage-reject
+[david-dev-image]: https://david-dm.org/sugarshin/redux-localstorage-reject/dev-status.svg
+[david-dev-url]: https://david-dm.org/sugarshin/redux-localstorage-reject#info=devDependencies
 [travis-image]: http://img.shields.io/travis/sugarshin/redux-localstorage-reject/master.svg?branch=master
 [travis-url]: https://travis-ci.org/sugarshin/redux-localstorage-reject
 [github-ver-image]: https://badge.fury.io/gh/sugarshin%2Fredux-localstorage-reject.svg
 [github-ver-url]: http://badge.fury.io/gh/sugarshin%2Fredux-localstorage-reject
 [license-image]: http://img.shields.io/:license-mit-blue.svg
 [license-url]: http://sugarshin.mit-license.org/
-[downloads-image]: http://img.shields.io/npm/dm/redux-localstorage-reject.svg
-[dependencies-image]: http://img.shields.io/david/sugarshin/redux-localstorage-reject.svg

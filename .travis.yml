@@ -6,4 +6,4 @@ cache:
 node_js:
   - "4.2"
 before_script:
-  - npm ru compile
+  - npm run transpile
